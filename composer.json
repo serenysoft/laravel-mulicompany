@@ -1,0 +1,56 @@
+{
+  "name": "sereny/laravel-multicompany",
+  "description": "The multi tenant control with shared table",
+  "keywords": [
+    "laravel",
+    "multi-tenant",
+    "eloquent",
+    "database"
+  ],
+  "homepage": "http://slto.com.br",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://gitlab.com/sereny/laravel-multicompany/issues",
+    "source": "https://gitlab.com/sereny/laravel-multicompany"
+  },
+  "authors": [
+    {
+      "name": "Leandro Guindani Gehlen",
+      "email": "leandrogehlen@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/database": "^9.0|^10.0|^11.0",
+    "illuminate/events": "^9.0|^10.0|^11.0"
+  },
+  "require-dev": {
+    "laravel/framework": "^9.0|^10.0|^11.0",
+    "phpunit/phpunit": "^9.0|^10.0",
+    "orchestra/testbench": "^8.22"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sereny\\MultiCompany\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Sereny\\MultiCompany\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Sereny\\MultiCompany\\CompanyServiceProvider"
+        ]
+      }
+    }
+  }
+}
