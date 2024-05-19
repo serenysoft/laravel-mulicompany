@@ -4,7 +4,7 @@
 [![Total Downloads](https://poser.pugx.org/sereny/laravel-multicompany/downloads.png)](https://packagist.org/packages/sereny/laravel-multicompany)
 [![Latest Stable Version](https://poser.pugx.org/sereny/laravel-multicompany/v/stable.png)](https://packagist.org/packages/sereny/laravel-multicompany)
 
-This Laravel library provides a flexible and secure approach to multicompany within a shared database. It allows you to filter and populate the company_id field of models that belong to a company, enabling you to manage data for multiple companies while maintaining data separation.
+This Laravel library provides a flexible and secure approach to multicompany within a shared database. It allows you to filter and populate the `company_id` field of models that belong to a company, enabling you to manage data for multiple companies while maintaining data separation.
 
 ## Features
 

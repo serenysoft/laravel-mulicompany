@@ -1,9 +1,10 @@
 {
   "name": "sereny/laravel-multicompany",
-  "description": "The multi tenant control with shared table",
+  "description": "Multi company for eloquent models",
   "keywords": [
     "laravel",
-    "multi-tenant",
+    "tenant",
+    "company",
     "eloquent",
     "database"
   ],
