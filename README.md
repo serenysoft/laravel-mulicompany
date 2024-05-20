@@ -1,6 +1,6 @@
 # Laravel Multi Company
 
-[![Build Status](https://github.com/sereny/laravel-multicompany/actions/workflows/tests.yml/badge.svg)](https://github.com/sereny/laravel-multicompany/actions)
+[![Build Status](https://github.com/serenysoft/laravel-multicompany/actions/workflows/tests.yml/badge.svg)](https://github.com/serenysoft/laravel-multicompany/actions/workflows/tests.yml)
 [![Total Downloads](https://poser.pugx.org/sereny/laravel-multicompany/downloads.png)](https://packagist.org/packages/sereny/laravel-multicompany)
 [![Latest Stable Version](https://poser.pugx.org/sereny/laravel-multicompany/v/stable.png)](https://packagist.org/packages/sereny/laravel-multicompany)
 
