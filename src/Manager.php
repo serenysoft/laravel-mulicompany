@@ -22,7 +22,7 @@ class Manager
     /**
      * @var string<class-string>
      */
-    public static ?string $model = 'company';
+    public static ?string $model = 'App\\Models\\Company';
 
     /**
      * Finds company by id
