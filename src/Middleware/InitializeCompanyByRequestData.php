@@ -51,13 +51,13 @@ class InitializeCompanyByRequestData extends IdentificationMiddleware
 
     protected function getPayload(Request $request): ?string
     {
-        $tenant = null;
+        $company = null;
         if (static::$header && $request->hasHeader(static::$header)) {
-            $tenant = $request->header(static::$header);
+            $company = $request->header(static::$header);
         } elseif (static::$queryParameter && $request->has(static::$queryParameter)) {
-            $tenant = $request->get(static::$queryParameter);
+            $company = $request->get(static::$queryParameter);
         }
 
-        return $tenant;
+        return $company;
     }
 }

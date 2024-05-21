@@ -42,14 +42,15 @@ trait InteractsWithCompany
      */
     public function applyCompany()
     {
-        $company = company()->current();
         $foreignKeyName =  $this->company()->getForeignKeyName();
 
-        if (! $company) {
-            throw new CompanyCouldNotBeIdentifiedException();
-        }
-
         if ($this->{$foreignKeyName} === null) {
+            $company = company()->current();
+
+            if (! $company) {
+                throw new CompanyCouldNotBeIdentifiedException();
+            }
+
             $this->{$foreignKeyName} = $company->id;
         }
     }
